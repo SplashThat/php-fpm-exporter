@@ -19,7 +19,7 @@
     - name: Push app To ECR - latest tag
       service: app
       type: push
-      tag: ^main$
+      tag: ^master$
       image_name: 382093569472.dkr.ecr.us-east-1.amazonaws.com/php-fpm-exporter
       image_tag: "latest"
       registry: https://382093569472.dkr.ecr.us-east-1.amazonaws.com
